@@ -74,4 +74,6 @@ about="my name is {}"
 print(about)
 about2=about.format(fullName)
 print(about)
-print(abot2)
+print(about2)
+
+print(fullName.find('z'))  #not found -1 found give index
